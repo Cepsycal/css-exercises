@@ -7,12 +7,44 @@ img {
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
+.break {
+  padding: 16px;
 }
 
-/* do not edit this footer */
+.title {
+  display:flex;
+  justify-content:center;
+  flex-grow: 1;
+  font-size: 36px;
+  font-weight: 900;
+  flex-basis: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-basis: 100%;
+  flex-flow: row wrap;
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+  padding-left: 52px;
+  text-align: center;
+  flex-basis: 200px;
+}
+
+.b4 {
+  padding-right: 52px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
